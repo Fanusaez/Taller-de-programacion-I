@@ -1,9 +1,5 @@
 # Taller de Programacion - TP Sockets 
 
-Padrón: **104896**
-
-Nombre: **Edgardo Francisco Saez**
-
 Enunciado: [Enunciado_Sockets.pdf](https://github.com/Taller-de-Programacion-TPs/sockets-2023c1-Fanusaez/files/11236045/Enunciado_Sockets.pdf)
 
 ## Modelo 
