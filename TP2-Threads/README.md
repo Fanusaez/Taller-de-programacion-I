@@ -1,9 +1,5 @@
 # Taller de Programacion - TP Threads
 
-Padrón: **104896**
-
-Nombre: **Edgardo Francisco Saez**
-
 Enunciado: [enunciado_threads.pdf](https://github.com/Taller-de-Programacion-TPs/threads-2023c1-Fanusaez/files/11431839/enunciado_threads.pdf)
 
 ## Modelo
