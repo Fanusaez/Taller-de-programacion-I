@@ -1,0 +1,40 @@
+@startuml
+'https://plantuml.com/class-diagram
+skinparam backgroundColor #000000
+class ServerProtocolo {
+- String servname
++ int iniciar_comunicacion()
+- void enviar_mensaje()
+- void recibir_mensaje()
+}
+
+class Soldado {
+- int estado
+- vector atributos_soldado
+
++ void realizar_accion(vector accion)
++ vector obtener_estado_juego()
++ imprimir_estado_juego()
+}
+
+class Socket {
++ Socket(char *servname)
++ Socket(char *hostname, char *servname)
++ int sendall(void *data, int sz, bool *closed)
++ int recvall(void *data, int sz, bool *closed)
++ Socket accept()
+}
+
+class Resolver {
++ struct addrinfo* next()
+}
+
+class ImpresorEstado {
++ imprimir_estado(estado, posx, posy, balas)
+}
+
+ServerProtocolo --> Socket
+ServerProtocolo --> Soldado
+Socket --> Resolver
+Soldado --> ImpresorEstado
+@enduml

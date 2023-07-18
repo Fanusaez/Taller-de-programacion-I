@@ -1,0 +1,33 @@
+@startuml
+skinparam backgroundColor #000000
+'https://plantuml.com/class-diagram
+class ProtocoloCliente {
+- String hostname
+- String servname
+- std::map acciones
+
++ void enviar_mensaje(String linea)
++ void recibir_mensaje()
+}
+
+class ImpresorEstado {
++ imprimir_estado(estado, posx, posy, balas)
+}
+
+class Socket {
++ Socket(char *servname)
++ Socket(char *hostname, char *servname)
++ int sendall(void *data, int sz, bool *closed)
++ int recvall(void *data, int sz, bool *closed)
++ Socket accept()
+}
+
+class Resolver {
++ struct addrinfo* next()
+}
+
+ProtocoloCliente --> Socket
+ProtocoloCliente --> ImpresorEstado
+Socket --> Resolver
+
+@enduml

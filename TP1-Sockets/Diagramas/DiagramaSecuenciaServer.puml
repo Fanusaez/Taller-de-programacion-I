@@ -1,0 +1,27 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor server_main
+server_main ->  ServerProtocol : new(servname, limite_x, limite_y)
+ServerProtocol -> ServerProtocol : Initialize
+server_main -> ServerProtocol : iniciar_comunicacion()
+ServerProtocol -> "Socket : skt_escucha" : accept()
+"Socket : skt_escucha" --> ServerProtocol : socket_cliente
+loop while server_vivo
+ServerProtocol -> ServerProtocol : recibir_mensaje(&server_vivo)
+activate ServerProtocol #pink
+ServerProtocol -> "Socket : socket_cliente" : recv(buffer)
+ServerProtocol -> "Soldado : soldado" : realizar_accion(accion)
+deactivate ServerProtocol
+ServerProtocol -> ServerProtocol : enviar_mensaje(&server_vivo)
+activate ServerProtocol #green
+ServerProtocol -> "Soldado : soldado" : obtener_estado_juego()
+"Soldado : soldado" --> ServerProtocol : estado_de_juego
+ServerProtocol -> "Socket : socket_cliente" : sendall(estado_de_juego)
+"Socket : socket_cliente" -> Cliente : send(estado_de_juego)
+deactivate ServerProtocol
+ServerProtocol -> "Soldado : soldado" : imprimir_estado()
+"Soldado : soldado" -> ImpresorEstado : imprimir_estado(estado, posx, posy, balas)
+end
+@enduml

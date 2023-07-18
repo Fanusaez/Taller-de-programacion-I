@@ -1,0 +1,12 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor  main_cliente
+main_cliente -> ProtocoloCliente :: recibir_mensaje()
+ProtocoloCliente -> "Socket : skt" :: recvall(buffer)
+ProtocoloCliente -> ProtocoloCliente :: mostar_mensaje(buffer)
+activate ProtocoloCliente
+ProtocoloCliente -> ImpresorEstado :: imprimir_estado(estado, pos, balas)
+deactivate ProtocoloCliente
+@enduml
