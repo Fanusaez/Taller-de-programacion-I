@@ -1,0 +1,36 @@
+#disparando,0,0,9
+Shooting 1
+
+#disparando,0,0,8
+NOP
+
+#disparando,0,0,7
+NOP
+
+#disparando,0,0,6
+NOP
+
+#disparando,0,0,5
+NOP
+
+#disparando,0,0,4
+NOP
+
+#disparando,0,0,3
+NOP
+
+#disparando,0,0,2
+NOP
+
+#disparando,0,0,1
+NOP
+
+#disparando,0,0,0
+NOP
+
+#quieto,0,0,0
+NOP
+
+#quieto,0,0,0
+Shooting 1
+

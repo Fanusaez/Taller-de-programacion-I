@@ -1,0 +1,35 @@
+#disparando,0,0,9
+Shooting 1
+
+#disparando,0,0,8
+NOP
+
+#disparando+moviendose,1,0,7
+Moving 1 0
+
+#disparando+moviendose,2,0,6
+NOP
+
+#disparando+moviendose,3,0,5
+NOP
+
+#disparando+moviendose,4,0,4
+NOP
+
+#disparando+moviendose,5,0,3
+NOP
+
+#disparando+moviendose,6,0,2
+NOP
+
+#disparando+moviendose,7,0,1
+NOP
+
+#disparando+moviendose,8,0,0
+NOP
+
+#moviendose,9,0,0
+NOP
+
+#quieto,9,0,0
+NOP

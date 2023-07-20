@@ -1,0 +1,29 @@
+#recargando,0,0,10
+Reload
+
+#disparando,0,0,9
+Shooting 1
+
+#disparando,0,0,8
+NOP
+
+#recargando,0,0,10
+Reload
+
+#quieto,0,0,10
+NOP
+
+#moviendose,1,0,10
+Moving 1 0
+
+#moviendose,2,0,10
+NOP
+
+#moviendose,3,0,10
+NOP
+
+#recargando,3,0,10
+Reload
+
+#quieto,3,0,10
+NOP
