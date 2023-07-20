@@ -2,6 +2,19 @@
 
 Enunciado: [Enunciado_Sockets.pdf](https://github.com/Taller-de-Programacion-TPs/sockets-2023c1-Fanusaez/files/11236045/Enunciado_Sockets.pdf)
 
+## Compilacion
+
+Desde el root del proyecto
+
+`make`
+
+Esto generara los ejecutables
+## Ejecucion
+
+* Para ejecutar el servidor `./server <puerto>  <tamaño_mapa_x> <tamaño_mapa_y>`
+* Para ejecutar el cliente `./client  localhost <puerto>  <ruta_archivo>`
+
+
 ## Modelo 
 Para el trabajo se requería implementar una comunicación entre cliente - servidor
 en donde los mismos se comunican a través de sockets.
