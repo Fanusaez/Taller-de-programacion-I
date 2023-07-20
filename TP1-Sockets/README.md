@@ -13,10 +13,10 @@ Esto generara los ejecutables
 
 * Para ejecutar el servidor
  
-`./server <puerto>  <tamaño_mapa_x> <tamaño_mapa_y>`
+`./server <puerto> <tamaño_mapa_x> <tamaño_mapa_y>`
 * Para ejecutar el cliente
   
- `./client  localhost <puerto>  <ruta_archivo>`
+ `./client localhost <puerto> <ruta_archivo>`
 
 
 ## Modelo 
