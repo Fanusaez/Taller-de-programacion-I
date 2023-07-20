@@ -11,8 +11,12 @@ Desde el root del proyecto
 Esto generara los ejecutables
 ## Ejecucion
 
-* Para ejecutar el servidor `./server <puerto>  <tamaño_mapa_x> <tamaño_mapa_y>`
-* Para ejecutar el cliente `./client  localhost <puerto>  <ruta_archivo>`
+* Para ejecutar el servidor
+ 
+`./server <puerto>  <tamaño_mapa_x> <tamaño_mapa_y>`
+* Para ejecutar el cliente
+  
+ `./client  localhost <puerto>  <ruta_archivo>`
 
 
 ## Modelo 
