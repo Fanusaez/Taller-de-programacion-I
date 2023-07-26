@@ -10,6 +10,7 @@ Repositorios de trabajos practicos de la materia taller de programacion I catedr
 * **Sockets** ⭐
 * Move semantics
 * Manejo de errores
+* POO
 * **Threads** ⭐
 
 ## Trabajos practicos
