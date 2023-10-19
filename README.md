@@ -1,6 +1,6 @@
 # Taller de programacion I 💻
 
-Repositorios de trabajos practicos de la materia taller de programacion I catedra Veiga.
+Repositorios de trabajos practicos de la materia taller de programacion I catedra Veiga (1C-2023).
 
 ## Temario 
 
